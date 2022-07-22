@@ -1,0 +1,39 @@
+body
+    {
+        background-color:white;
+    }
+p
+	{
+		font-family: -apple-system, BlinkMacSystemFont, 'Franklin Gothic Medium (Headings)', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size:14pt;
+
+	}
+
+p.tahoma
+	{
+		font-family: BlinkMacSystemFont;
+	}
+ 
+span{
+	color: #f9004d;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 23%
+	
+
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px
+
+}
+nav ul li a{
+	color: multi;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
